@@ -1,0 +1,11 @@
+app CrossWorld {
+  wasp: {
+    version: "^0.9.1"
+  },
+  title: "CrossWorld"
+}
+
+route RootRoute { path: "/", to: MainPage }
+page MainPage {
+  component: import Main from "@client/MainPage.jsx"
+}
